@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Dark Mode",
+    "version": "0.1.0",
+    "description": "Makes tigerparent.me dark mode ",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://tigerparent.me/*"]
+    }]
+   
+  }

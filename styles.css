@@ -1,0 +1,110 @@
+/* background color changer */
+#StudentModules, .col-xl-3.p-0.p-xl-3, .col-12, ul.nav.nav-tabs, #popupclose, #popup {
+    background-color: #2B2725 !important;
+}
+
+/* top bar changer */
+.col-lg-2, .col-lg-10, div.row.shadow.m-3 {
+    background-color: #6e2810 !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.col-lg-2 {
+    padding-left: 0px !important;
+}
+/* nav bar hover color changer */
+.nav-icon-item {
+    background-color: #823319;
+}
+.nav-icon-item:hover {
+    background-color: #993D1E !important;
+}
+
+.col-xl-2, .row.nav-icon-image-row {
+    display: none !important;
+}
+
+/* orange text color changer */
+.row.nav-icon-name-row, a, .list-group-item > div > a {
+    color: 	#e06f4a !important;
+} 
+
+/* text --> white color changer */
+div, div > a, h3.text-black-50  {
+    color: rgb(246, 243, 242) !important;
+}
+
+/* card header color changer */
+.card-header.text-center {
+    background-color: #383533;
+}
+
+/* module color changer */
+.list-group-item {
+    background-color: #45413f !important;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+}
+
+/* student color changer */
+.container.nav-item.list-group-item.clickableStudent, div.nav-link.active {
+    background-color: #993D1E !important;    
+}
+
+/* structure modifications */
+#TwitterDiv, .border-top.text-muted, #AnnouncementsDiv {
+    display: none;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* getting rid of semester 2 classes */ /* NOT CURRENTLY WORKING */
+/*.loadable-Module > .list-group:nth-child(1) > .list-group-item:nth-child(2), .loadable-Module > .list-group:nth-child(1) > .list-group-item:nth-child(3), 
+.loadable-Module > .list-group:nth-child(1) > .list-group-item:nth-child(7), 
+.loadable-Module > .list-group:nth-child(1) > .list-group-item:nth-child(9), .loadable-Module > .list-group:nth-child(1) > .list-group-item:nth-child(11), 
+.loadable-Module > .list-group:nth-child(1) > .list-group-item:nth-child(12), .loadable-Module > .list-group:nth-child(1) > .list-group-item:nth-child(13) {
+    display: none;
+}*/
+
+#DocumentsDiv {
+    margin-top: -15px;
+}
+
+/*.loadable-Module {
+    animation-duration: 0s !important;
+}*/
+
+
+/* grade popup modifiers */
+tr:nth-child(odd), tr:nth-child(even) {
+    background-color: rgb(56, 53, 51);
+}
+table.table-striped.table-bordered {
+    color: rgb(246, 243, 242) !important;
+}
+.nav-link:not(.active) {
+    background-color:#2B2725 !important;
+}
+.nav-link.border.active.border-bottom-0, .nav-link.border.active {
+    background-color: #993D1E !important;   
+}
+.fade, .active {
+    transition: none !important;
+}
+.row.shadow.m-3 {
+    display: block;
+}
+.col-xl-10, .nav.col-lg-12 {
+    max-width: 100% !important;
+    margin-right:0px !important;
+    font-weight: bold !important;
+}
+
+
+/* LOGIN SCREEN */
+.w-100.btn.btn-lg.btn-primary {
+    background-color:#823319!important;
+}
